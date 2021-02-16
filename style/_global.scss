@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.btn-form-diskusi {
+  margin-top: 10px;
+  width: 200px;
+  margin-right: 14px;
+  background: #ff8501;
+  border-radius: 12px;
+  color: white;
+  @include media-breakpoint-down(md) {
+    margin-right: 10px;
+    width: unset;
+    font-size: 12px;
+  }
+}
+.btn-form-hire {
+  margin-top: 10px;
+  width: 200px;
+  background: #449ab8;
+  border-radius: 12px;
+  color: white;
+  @include media-breakpoint-down(md) {
+    // margin-right: unset;
+    width: unset;
+    font-size: 12px;
+  }
+}
+.mobil-nav .card {
+  margin-top: 50px;
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+  border: none;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.25);
+  p {
+    margin: unset;
+    font-size: 10px;
+    color: #939396;
+    &.active {
+      color: #9708cc !important;
+    }
+  }
+  i {
+    // color: linear-gradient(135deg, #43cbff 0%, #77697c 100%);
+    color: #939396;
+    background: -webkit-linear-gradient(
+        120.89deg,
+        rgba(255, 255, 255, 0) 47.2%,
+        #000000 143.85%
+      ),
+      #c4c4c4;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &.active {
+      background: -webkit-linear-gradient(135deg, #43cbff 0%, #9708cc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+footer {
+  padding: 20px;
+  background: #449ab8;
+  h6 {
+    color: aliceblue;
+  }
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}

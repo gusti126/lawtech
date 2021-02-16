@@ -1,0 +1,133 @@
+body {
+  background: #f4f4f4;
+}
+.jumbotron {
+  margin-top: -64px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: unset;
+  @include media-breakpoint-down(md) {
+    margin-top: -20px;
+    height: 240px;
+  }
+  h2 {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    @include media-breakpoint-down(md) {
+      font-size: 28px;
+      margin-top: 20px;
+    }
+  }
+  h6 {
+    font-weight: 200;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    @include media-breakpoint-down(md) {
+      font-size: 16px;
+    }
+  }
+}
+.service-kategori {
+  .card {
+    padding: 16px 24px;
+    border: none;
+    margin-top: -80px;
+    background: #ffffff;
+    border-radius: 20px;
+    @include media-breakpoint-down(md) {
+      padding: unset;
+      padding: 10px 16px;
+      margin-top: -40px;
+    }
+    h5 {
+      color: #001781;
+      margin-bottom: 14px;
+      @include media-breakpoint-down(md) {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+    a {
+      text-decoration: unset;
+      color: rgb(83, 77, 77);
+      &:hover {
+        filter: drop-shadow(1px 2px 8px rgba(0, 0, 0, 0.25));
+      }
+      p {
+        margin-top: 6px;
+        @include media-breakpoint-down(md) {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+.icon-service {
+  // filter: drop-shadow(1px 2px 8px rgba(0, 0, 0, 0.25));
+  // &:hover {
+  //   filter: drop-shadow(1px 2px 8px rgba(0, 0, 0, 0.25));
+  // }
+  @include media-breakpoint-down(md) {
+    width: 40px;
+  }
+}
+
+.banner {
+  padding-top: 34px;
+  margin-top: 18px;
+  min-height: 446px;
+  background-size: cover;
+  background-position: center;
+  @include media-breakpoint-down(md) {
+    margin-top: 6px;
+  }
+  h3 {
+    span {
+      color: #008ac0;
+      font-weight: bold;
+    }
+    @include media-breakpoint-down(md) {
+      font-size: 1.3rem;
+    }
+  }
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+.kenapa-kami {
+  .card {
+    border: none;
+    h6 {
+      font-size: 20px;
+    }
+    p {
+      margin: unset;
+      font-size: 14px;
+    }
+  }
+}
+
+.about {
+  background: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 40px;
+  }
+  h2 {
+    margin-top: 40px;
+    color: #1a4254;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+}
