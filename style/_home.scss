@@ -41,7 +41,7 @@ body {
     border-radius: 20px;
     @include media-breakpoint-down(md) {
       padding: unset;
-      padding: 10px 16px;
+      padding: 8px 8px;
       margin-top: -40px;
     }
     h5 {
@@ -130,4 +130,10 @@ body {
     font-size: 1.5rem;
     line-height: 30px;
   }
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }

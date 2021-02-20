@@ -42,3 +42,23 @@
     color: #db8c2f;
   }
 }
+
+.navbar-diskusi {
+  .nav-item {
+    &.active {
+      a {
+        color: #db8c2f !important;
+        // font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+    .nav-link {
+      color: black;
+      @include media-breakpoint-up(lg) {
+        color: #db8c2f !important;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

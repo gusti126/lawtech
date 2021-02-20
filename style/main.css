@@ -10954,6 +10954,23 @@ footer h6 {
   color: #db8c2f;
 }
 
+.navbar-diskusi .nav-item.active a {
+  color: #db8c2f !important;
+  text-decoration: underline;
+}
+
+.navbar-diskusi .nav-item .nav-link {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .navbar-diskusi .nav-item .nav-link {
+    color: #db8c2f !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 body {
   background: #f4f4f4;
 }
@@ -11012,7 +11029,7 @@ body {
 @media (max-width: 991.98px) {
   .service-kategori .card {
     padding: unset;
-    padding: 10px 16px;
+    padding: 8px 8px;
     margin-top: -40px;
   }
 }
@@ -11119,5 +11136,79 @@ body {
 .about p {
   font-size: 1.5rem;
   line-height: 30px;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#diskusi-page .jumbotron {
+  background: #eefcfe;
+  height: unset;
+}
+
+#diskusi-page .jumbotron h1 {
+  margin-top: 103px;
+  color: #ff8400;
+  font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+  #diskusi-page .jumbotron h1 {
+    margin-top: 20px;
+  }
+}
+
+#diskusi-page .jumbotron h3 {
+  color: #59585a;
+  font-weight: normal;
+}
+
+#diskusi-page .jumbotron img {
+  width: 500px;
+}
+
+#diskusi-page .kategori {
+  background: white;
+}
+
+@media (max-width: 991.98px) {
+  #diskusi-page .kategori input {
+    margin-top: 10px;
+  }
+}
+
+.pertanyaan a {
+  color: unset;
+  text-decoration: unset;
+}
+
+.pertanyaan a .card {
+  border-radius: 18px;
+}
+
+.pertanyaan a .card:hover {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pertanyaan a .card p {
+  line-height: unset;
+  margin-bottom: 0px !important;
+}
+
+.pertanyaan a .card p.jawaban {
+  color: #049301;
+  font-size: 14px;
+}
+
+.header-diskusi img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */

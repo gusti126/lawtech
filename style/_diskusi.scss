@@ -1,0 +1,57 @@
+#diskusi-page {
+  .jumbotron {
+    background: #eefcfe;
+    height: unset;
+    h1 {
+      margin-top: 103px;
+      @include media-breakpoint-down(md) {
+        margin-top: 20px;
+      }
+      color: #ff8400;
+      font-weight: bold;
+    }
+    h3 {
+      color: #59585a;
+      font-weight: normal;
+    }
+    img {
+      width: 500px;
+    }
+  }
+  .kategori {
+    background: white;
+    input {
+      @include media-breakpoint-down(md) {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+.pertanyaan {
+  a {
+    color: unset;
+    text-decoration: unset;
+    .card {
+      border-radius: 18px;
+      &:hover {
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+      }
+      p {
+        line-height: unset;
+        margin-bottom: 0px !important;
+        &.jawaban {
+          color: #049301;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.header-diskusi {
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+}
